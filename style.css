@@ -1,0 +1,350 @@
+body {
+    background-color: rgb(24, 0, 24);
+}
+
+
+/* Navbar container */
+
+.navbar {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 20px 20px;
+}
+
+
+/* Links inside the navbar */
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* The dropdown container */
+
+.dropdown {
+    overflow: hidden;
+}
+
+
+/* Dropdown button */
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    color: blanchedalmond;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: blanchedalmond;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#lplogo {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+#navigation {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#header {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(208, 158, 255);
+}
+
+#subheader {
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 70px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.flex-container {
+    display: flex;
+    padding: 40px;
+}
+
+h1 {
+    color: rgb(247, 199, 199);
+    font-family: 'abril fatface', cursive;
+    text-align: center;
+    font-size: 80px;
+}
+
+p {
+    color: white;
+    font-weight: lighter;
+    font-family: 'montserrat', sans sans-serif;
+}
+
+#ariesheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(255, 240, 158);
+}
+
+#ariessubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#taurusheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(121, 190, 152);
+}
+
+#taurussubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#geminiheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(255, 233, 218);
+}
+
+#geminisubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cancerheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(30, 7, 94);
+}
+
+#cancersubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(226, 226, 226);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#leoheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(255, 188, 112);
+}
+
+#leosubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(255, 212, 212);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#virgoheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(252, 204, 149);
+}
+
+#virgosubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(230, 194, 177);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#libraheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(255, 183, 187);
+}
+
+#librasubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(230, 194, 177);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#scorpioheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(202, 183, 255);
+}
+
+#scorpiosubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(214, 211, 236);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sagittariusheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(152, 232, 252);
+}
+
+#sagittariussubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(211, 223, 236);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#capricornheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(252, 217, 152);
+}
+
+#capricornsubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: beige;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aquariusheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(44, 114, 110);
+}
+
+#aquariussubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#piscesheader {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    text-align: center;
+    color: rgb(23, 3, 78);
+}
+
+#piscessubheader {
+    font-size: 100%;
+    font-family: 'montserrat';
+    margin: 40px;
+    text-align: center;
+    color: rgb(250, 211, 189);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer {
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
